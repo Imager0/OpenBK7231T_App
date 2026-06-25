@@ -14,3 +14,5 @@ sed -i 's/intc_service_register( FIQ_BTDM, PRI_FIQ_BTDM, ble_btdm_isr );/#ifdef 
 sed -i 's/#if (CFG_SOC_NAME == SOC_BK7231N)/#if (CFG_BLE_VERSION == BLE_VERSION_5_1)/g' sdk/beken_freertos_sdk/beken378/func/wlan_ui/wlan_cli.c
 
 echo "Patches applied successfully."
+
+# trigger build
